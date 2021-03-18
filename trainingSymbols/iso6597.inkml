@@ -1,0 +1,20 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat><annotation type="truth"></annotation>
+<annotation type="UI">80_caue_6597</annotation>
+<trace id="15">
+698 79, 698 77, 696 89, 696 91, 696 92, 696 94, 696 95, 696 96, 696 97, 697 97
+</trace>
+<trace id="14">
+690 90, 689 90, 689 91, 689 90, 702 88, 705 88, 708 88, 709 88, 708 87, 707 87, 706 87, 705 86
+</trace>
+<traceGroup>
+	<traceGroup xml:id="0">
+		<annotation type="truth"></annotation>
+		<traceView traceDataRef="15"/>
+		<traceView traceDataRef="14"/>
+	</traceGroup>
+</traceGroup>
+</ink>

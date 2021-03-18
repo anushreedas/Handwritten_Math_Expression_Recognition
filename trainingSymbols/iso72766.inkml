@@ -1,0 +1,20 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat><annotation type="truth"></annotation>
+<annotation type="UI">MfrDB1896_72766</annotation>
+<trace id="13">
+985 385 8927766, 985 387 8927812, 985 389 8927828, 986 394 8927828, 986 398 8927844, 986 405 8927844, 986 410 8927875, 986 416 8927891, 986 424 8927891, 986 430 8927906, 986 439 8927906, 986 448 8927922, 986 455 8927922, 986 463 8927937, 986 469 8927937, 986 477 8927953, 986 481 8927953, 986 486 8927969, 986 490 8927969, 986 495 8927984, 986 497 8928000, 986 500 8928000, 986 504 8928016, 986 506 8928016, 986 509 8928031, 986 511 8928031, 986 513 8928047, 986 515 8928062, 986 517 8928062, 986 518 8928094, 987 518 8928094, 987 519 8928109, 987 521 8928141, 987 522 8928187
+</trace>
+<trace id="14">
+986 549 8928484
+</trace>
+<traceGroup>
+	<traceGroup xml:id="0">
+		<annotation type="truth"></annotation>
+		<traceView traceDataRef="13"/>
+		<traceView traceDataRef="14"/>
+	</traceGroup>
+</traceGroup>
+</ink>

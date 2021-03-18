@@ -1,0 +1,24 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat><annotation type="truth"></annotation>
+<annotation type="UI">96_Fabricio_9763</annotation>
+<trace id="25">
+893 147, 894 147, 894 165, 895 165, 895 164, 895 163, 895 162, 895 161, 895 160
+</trace>
+<trace id="26">
+904 146, 905 148, 906 164, 906 165, 906 166, 906 165, 906 164, 906 163, 905 162, 905 161
+</trace>
+<trace id="27">
+885 147, 887 147, 890 147, 894 147, 912 146, 913 146, 912 146
+</trace>
+<traceGroup>
+	<traceGroup xml:id="0">
+		<annotation type="truth"></annotation>
+		<traceView traceDataRef="25"/>
+		<traceView traceDataRef="26"/>
+		<traceView traceDataRef="27"/>
+	</traceGroup>
+</traceGroup>
+</ink>

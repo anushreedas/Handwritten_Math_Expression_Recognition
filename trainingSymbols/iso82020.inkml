@@ -1,0 +1,20 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat><annotation type="truth"></annotation>
+<annotation type="UI">MfrDB3204_82020</annotation>
+<trace id="3">
+338 244 587008, 339 244 587071, 340 244 587096, 341 244 587111, 342 244 587127, 343 244 587135, 344 244 587143, 345 244 587151, 346 244 587191
+</trace>
+<trace id="4">
+338 248 588304, 339 248 588463, 340 248 588471, 341 248 588487, 342 248 588495, 343 248 588567, 344 248 588591, 345 248 588599, 346 248 588679
+</trace>
+<traceGroup>
+	<traceGroup xml:id="0">
+		<annotation type="truth"></annotation>
+		<traceView traceDataRef="3"/>
+		<traceView traceDataRef="4"/>
+	</traceGroup>
+</traceGroup>
+</ink>

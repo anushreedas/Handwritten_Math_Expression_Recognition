@@ -1,0 +1,20 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat><annotation type="truth"></annotation>
+<annotation type="UI">MfrDB3455_84471</annotation>
+<trace id="31">
+800 450 67279, 801 450 67320, 803 450 67328, 805 450 67336, 807 450 67344, 809 450 67352, 811 450 67360, 813 450 67368, 814 450 67376, 815 450 67384
+</trace>
+<trace id="30">
+796 446 66758, 797 446 66792, 799 446 66808, 800 446 66816, 802 446 66824, 805 446 66832, 807 446 66840, 808 446 66848, 809 446 66856, 811 446 66864, 812 446 66872
+</trace>
+<traceGroup>
+	<traceGroup xml:id="0">
+		<annotation type="truth"></annotation>
+		<traceView traceDataRef="31"/>
+		<traceView traceDataRef="30"/>
+	</traceGroup>
+</traceGroup>
+</ink>

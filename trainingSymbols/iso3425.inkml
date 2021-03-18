@@ -1,0 +1,20 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat><annotation type="truth"></annotation>
+<annotation type="UI">124_caue_3425</annotation>
+<trace id="11">
+628 57, 628 58, 629 56, 631 50, 631 49, 632 49, 631 49, 631 50, 631 51, 631 52, 630 52, 630 54, 630 55, 630 56, 631 57, 632 58, 633 59, 633 60, 634 60, 635 60, 636 61, 637 61, 638 61, 639 61, 639 60
+</trace>
+<trace id="12">
+635 44, 634 43, 637 43
+</trace>
+<traceGroup>
+	<traceGroup xml:id="0">
+		<annotation type="truth"></annotation>
+		<traceView traceDataRef="11"/>
+		<traceView traceDataRef="12"/>
+	</traceGroup>
+</traceGroup>
+</ink>

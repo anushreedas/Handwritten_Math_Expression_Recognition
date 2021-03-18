@@ -1,0 +1,20 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat><annotation type="truth"></annotation>
+<annotation type="UI">MfrDB3830_85570</annotation>
+<trace id="11">
+488 241 5783372, 486 246 5783408, 486 247 5783432, 483 252 5783451, 483 251 5783479, 483 250 5783502
+</trace>
+<trace id="12">
+482 242 5783807, 481 243 5783811, 484 247 5783840, 486 249 5783860, 488 251 5783879
+</trace>
+<traceGroup>
+	<traceGroup xml:id="0">
+		<annotation type="truth"></annotation>
+		<traceView traceDataRef="11"/>
+		<traceView traceDataRef="12"/>
+	</traceGroup>
+</traceGroup>
+</ink>

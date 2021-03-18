@@ -1,0 +1,20 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat><annotation type="truth"></annotation>
+<annotation type="UI">89_caue_8005</annotation>
+<trace id="1">
+317 92, 316 90, 338 63, 340 61, 341 60, 342 60, 343 59
+</trace>
+<trace id="0">
+311 65, 312 63, 314 63, 316 65, 330 80, 332 82, 333 84, 336 88, 337 89, 337 90, 338 91, 338 92, 339 92, 338 92, 337 91, 337 90, 336 89
+</trace>
+<traceGroup>
+	<traceGroup xml:id="0">
+		<annotation type="truth"></annotation>
+		<traceView traceDataRef="1"/>
+		<traceView traceDataRef="0"/>
+	</traceGroup>
+</traceGroup>
+</ink>

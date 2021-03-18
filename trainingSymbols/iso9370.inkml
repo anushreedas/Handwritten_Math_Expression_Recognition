@@ -1,0 +1,28 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat><annotation type="truth"></annotation>
+<annotation type="UI">94_fujita_9370</annotation>
+<trace id="39">
+690 86, 690 87, 691 87, 692 88, 693 88, 695 88, 696 88, 698 89, 700 89, 702 89, 704 89, 705 89, 707 90, 708 90, 708 89, 709 89, 710 89
+</trace>
+<trace id="38">
+690 86
+</trace>
+<trace id="37">
+691 76, 690 75, 691 75, 692 75, 693 74, 694 74, 695 74, 696 74, 697 74, 699 74, 700 74, 701 74, 702 74, 703 73, 704 73, 705 73, 706 73, 707 73, 708 73, 709 73, 708 73, 707 73
+</trace>
+<trace id="36">
+691 76
+</trace>
+<traceGroup>
+	<traceGroup xml:id="0">
+		<annotation type="truth"></annotation>
+		<traceView traceDataRef="39"/>
+		<traceView traceDataRef="38"/>
+		<traceView traceDataRef="37"/>
+		<traceView traceDataRef="36"/>
+	</traceGroup>
+</traceGroup>
+</ink>

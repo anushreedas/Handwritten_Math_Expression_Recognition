@@ -1,0 +1,20 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat><annotation type="truth"></annotation>
+<annotation type="UI">130_leissi_4700</annotation>
+<trace id="3">
+402 106, 401 102, 400 102, 400 104, 400 113, 400 116, 400 119, 400 122, 401 128, 401 130, 402 133, 402 135, 403 137, 403 138, 403 139, 404 140, 404 141, 403 140, 403 139
+</trace>
+<trace id="4">
+389 126, 386 124, 390 124, 400 124, 407 124, 419 124, 421 124, 423 124, 424 124, 425 124, 426 124, 427 124, 427 123
+</trace>
+<traceGroup>
+	<traceGroup xml:id="0">
+		<annotation type="truth"></annotation>
+		<traceView traceDataRef="3"/>
+		<traceView traceDataRef="4"/>
+	</traceGroup>
+</traceGroup>
+</ink>

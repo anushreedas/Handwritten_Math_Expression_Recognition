@@ -1,0 +1,20 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat><annotation type="truth"></annotation>
+<annotation type="UI">2011_KAIST_Data2_14_sub_11_44960</annotation>
+<trace id="1">
+3935 2660, 3935 2660, 3931 2682, 3926 2719, 3919 2764, 3919 2818, 3919 2879, 3919 2942, 3919 3001, 3933 3055, 3951 3100, 3980 3136, 4026 3157, 4064 3175
+</trace>
+<trace id="0">
+3761 2793, 3761 2793, 3827 2809, 3852 2829, 3877 2856, 3892 2888, 3899 2926, 3899 2969, 3890 3014, 3874 3062, 3852 3107, 3822 3150, 3793 3190, 3761 3222, 3732 3249, 3709 3263, 3709 3263
+</trace>
+<traceGroup>
+	<traceGroup xml:id="0">
+		<annotation type="truth"></annotation>
+		<traceView traceDataRef="1"/>
+		<traceView traceDataRef="0"/>
+	</traceGroup>
+</traceGroup>
+</ink>

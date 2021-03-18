@@ -1,0 +1,44 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat><annotation type="truth"></annotation>
+<annotation type="UI">94_fujita_9376</annotation>
+<trace id="48">
+784 112
+</trace>
+<trace id="49">
+784 112, 784 111, 784 112
+</trace>
+<trace id="46">
+784 124
+</trace>
+<trace id="47">
+784 124, 784 125, 785 128, 785 129, 785 131, 785 132, 786 133, 786 134, 786 135, 787 135, 787 134, 786 133
+</trace>
+<trace id="44">
+760 117
+</trace>
+<trace id="45">
+760 117, 761 117, 760 117, 759 117, 758 118, 756 118, 755 119, 754 119, 752 120, 751 121, 750 121, 749 122, 748 123, 747 124, 748 125, 749 126, 750 126, 751 127, 752 127, 754 128, 755 129, 757 130, 759 131, 760 131, 762 132, 763 133, 764 134, 765 134, 765 135, 765 136, 764 136, 764 137, 763 137, 761 137, 759 137, 758 137, 756 137, 754 137, 752 137, 750 137, 748 137, 747 137
+</trace>
+<trace id="51">
+812 118, 812 119, 813 120, 813 123, 814 126, 814 128, 815 129, 815 131, 815 134, 815 135, 815 136, 815 137, 815 138, 815 137, 815 136, 815 135, 815 134, 815 133, 816 131, 816 130, 816 128, 816 127, 817 126, 817 125, 818 123, 818 122, 819 121, 820 120, 821 120, 822 120, 823 120, 824 121, 825 121, 826 122, 827 124, 828 125, 829 127, 830 129, 830 130, 831 132, 832 133, 832 134, 832 135, 832 136, 833 137, 834 136, 834 135
+</trace>
+<trace id="50">
+812 118
+</trace>
+<traceGroup>
+	<traceGroup xml:id="0">
+		<annotation type="truth"></annotation>
+		<traceView traceDataRef="48"/>
+		<traceView traceDataRef="49"/>
+		<traceView traceDataRef="46"/>
+		<traceView traceDataRef="47"/>
+		<traceView traceDataRef="44"/>
+		<traceView traceDataRef="45"/>
+		<traceView traceDataRef="51"/>
+		<traceView traceDataRef="50"/>
+	</traceGroup>
+</traceGroup>
+</ink>

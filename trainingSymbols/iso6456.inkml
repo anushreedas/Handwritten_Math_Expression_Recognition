@@ -1,0 +1,24 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat><annotation type="truth"></annotation>
+<annotation type="UI">79_lucelia_6456</annotation>
+<trace id="15">
+765 111, 767 110, 768 109, 768 108, 763 108, 760 111, 759 112, 758 114, 757 116, 757 118, 756 121, 756 122, 756 124, 757 125, 758 126, 760 127, 768 127, 770 126, 772 126, 773 126, 775 125, 776 125
+</trace>
+<trace id="17">
+828 113, 829 111, 820 112, 819 114, 818 116, 818 117, 819 117, 820 118, 822 118, 823 119, 825 119, 827 119, 829 120, 831 121, 832 121, 834 122, 835 123, 835 125, 835 126, 834 128, 833 129, 832 130, 831 131, 829 131, 827 132, 826 132, 824 132, 823 131, 821 131, 820 130, 819 130, 819 129
+</trace>
+<trace id="16">
+797 111, 796 109, 793 125, 794 126, 795 127, 796 128, 798 128, 799 128, 801 128, 803 128, 805 127, 807 126, 808 125, 809 124, 810 122, 811 120, 810 119, 810 117, 807 113, 806 112, 804 111, 802 110, 800 110, 798 111, 796 112, 794 113, 793 115, 792 117, 792 119, 792 121
+</trace>
+<traceGroup>
+	<traceGroup xml:id="0">
+		<annotation type="truth"></annotation>
+		<traceView traceDataRef="15"/>
+		<traceView traceDataRef="17"/>
+		<traceView traceDataRef="16"/>
+	</traceGroup>
+</traceGroup>
+</ink>

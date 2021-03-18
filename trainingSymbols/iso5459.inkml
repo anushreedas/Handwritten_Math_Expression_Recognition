@@ -1,0 +1,20 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat><annotation type="truth"></annotation>
+<annotation type="UI">70_leissi_5459</annotation>
+<trace id="5">
+887 118, 884 117, 879 117, 877 117, 883 118, 886 118, 889 118, 891 118, 894 118, 896 118, 898 118, 900 118, 901 118, 902 118, 902 119, 901 120, 900 120, 899 121
+</trace>
+<trace id="6">
+887 128, 884 136, 886 136, 890 135, 893 135, 897 135, 900 134, 903 134, 907 134, 909 134, 911 133, 913 133, 913 134, 912 134, 911 134, 910 134
+</trace>
+<traceGroup>
+	<traceGroup xml:id="0">
+		<annotation type="truth"></annotation>
+		<traceView traceDataRef="5"/>
+		<traceView traceDataRef="6"/>
+	</traceGroup>
+</traceGroup>
+</ink>

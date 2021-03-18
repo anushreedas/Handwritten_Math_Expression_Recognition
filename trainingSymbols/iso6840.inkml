@@ -1,0 +1,28 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat><annotation type="truth"></annotation>
+<annotation type="UI">80_Nina_6840</annotation>
+<trace id="19">
+368 329, 368 326, 368 325, 369 324, 369 323, 370 322, 371 321, 373 321, 374 320, 376 320, 378 320, 380 320, 383 320, 385 320, 387 321, 389 322, 391 323, 393 324, 394 326, 394 328, 394 330, 394 333, 393 335, 392 338, 390 340, 388 342, 386 344, 384 345, 382 346, 380 347, 378 348, 376 348, 375 348, 373 348, 372 348, 371 348, 371 347, 372 347, 373 347, 374 347, 375 348, 376 349, 377 350, 379 351, 380 352, 381 354, 382 356, 384 358, 385 360, 387 361, 388 363, 390 365, 391 367, 393 368, 394 369, 396 370, 397 370, 398 370, 400 370, 401 370, 402 369, 404 368, 405 367, 406 366, 407 364, 408 363
+</trace>
+<trace id="18">
+368 329
+</trace>
+<trace id="17">
+371 324, 371 325, 371 326, 371 328, 370 330, 370 333, 370 336, 370 340, 369 344, 368 349, 368 353, 367 357, 367 361, 366 364, 366 367, 365 369, 365 370
+</trace>
+<trace id="16">
+371 324
+</trace>
+<traceGroup>
+	<traceGroup xml:id="0">
+		<annotation type="truth"></annotation>
+		<traceView traceDataRef="19"/>
+		<traceView traceDataRef="18"/>
+		<traceView traceDataRef="17"/>
+		<traceView traceDataRef="16"/>
+	</traceGroup>
+</traceGroup>
+</ink>

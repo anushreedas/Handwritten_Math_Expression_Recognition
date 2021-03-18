@@ -1,0 +1,20 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat><annotation type="truth"></annotation>
+<annotation type="UI">2011_IVC_depart_F029_E005_29938</annotation>
+<trace id="26">
+14.9867 11.2755, 14.9786 11.2675, 14.9706 11.2555, 14.9546 11.2555, 14.9265 11.2475, 14.9064 11.2475, 14.8743 11.2515, 14.8422 11.2515, 14.8141 11.2555, 14.7981 11.2836, 14.8021 11.3157
+</trace>
+<trace id="27">
+14.9907 11.436, 14.9907 11.4441, 14.9827 11.4481, 14.9666 11.4521, 14.9425 11.4521, 14.9345 11.4521, 14.9225 11.4481, 14.8984 11.436, 14.8743 11.4521
+</trace>
+<traceGroup>
+	<traceGroup xml:id="0">
+		<annotation type="truth"></annotation>
+		<traceView traceDataRef="26"/>
+		<traceView traceDataRef="27"/>
+	</traceGroup>
+</traceGroup>
+</ink>

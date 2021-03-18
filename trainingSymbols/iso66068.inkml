@@ -1,0 +1,20 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat><annotation type="truth"></annotation>
+<annotation type="UI">MfrDB0051_66068</annotation>
+<trace id="9">
+499 59 332929, 503 67 332983, 503 75 333002, 503 84 333016, 503 96 333032, 503 105 333049, 503 112 333064
+</trace>
+<trace id="8">
+484 86 332609, 485 81 332680, 494 81 332700, 504 81 332710, 513 81 332726, 518 81 332742, 524 82 332759, 528 82 332774
+</trace>
+<traceGroup>
+	<traceGroup xml:id="0">
+		<annotation type="truth"></annotation>
+		<traceView traceDataRef="9"/>
+		<traceView traceDataRef="8"/>
+	</traceGroup>
+</traceGroup>
+</ink>

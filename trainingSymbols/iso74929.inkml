@@ -1,0 +1,20 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat><annotation type="truth"></annotation>
+<annotation type="UI">MfrDB2177_74929</annotation>
+<trace id="33">
+909 433 849355, 910 433 849433, 912 432 849449, 917 432 849473, 920 432 849489, 923 432 849505, 925 432 849521, 924 433 849697, 922 435 849713
+</trace>
+<trace id="34">
+912 440 849994, 915 440 850129, 920 440 850145, 925 440 850161, 927 440 850177, 928 440 850193
+</trace>
+<traceGroup>
+	<traceGroup xml:id="0">
+		<annotation type="truth"></annotation>
+		<traceView traceDataRef="33"/>
+		<traceView traceDataRef="34"/>
+	</traceGroup>
+</traceGroup>
+</ink>

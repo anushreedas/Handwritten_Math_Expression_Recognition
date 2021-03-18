@@ -1,0 +1,20 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat><annotation type="truth"></annotation>
+<annotation type="UI">95_alfonso_9496</annotation>
+<trace id="11">
+741 153, 737 155, 747 155, 761 154, 764 154, 767 154, 770 154, 772 154, 774 154, 775 154, 776 154, 777 154, 776 154
+</trace>
+<trace id="10">
+741 135, 740 135, 753 133, 757 133, 773 134, 774 134, 775 134, 774 135, 773 136, 772 136
+</trace>
+<traceGroup>
+	<traceGroup xml:id="0">
+		<annotation type="truth"></annotation>
+		<traceView traceDataRef="11"/>
+		<traceView traceDataRef="10"/>
+	</traceGroup>
+</traceGroup>
+</ink>

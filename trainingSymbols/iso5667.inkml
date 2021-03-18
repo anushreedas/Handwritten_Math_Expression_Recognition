@@ -1,0 +1,20 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat><annotation type="truth"></annotation>
+<annotation type="UI">73_fujita_5667</annotation>
+<trace id="3">
+404 37, 407 42, 407 43, 407 44, 408 45, 408 46, 408 45, 408 43, 408 42, 408 40, 407 38, 407 36, 407 34, 406 33, 405 31, 404 30, 402 29, 401 29, 399 29, 398 30, 396 31, 395 32, 393 33, 392 35, 392 37, 391 39, 391 41, 391 43, 392 44, 393 46, 394 47, 396 48, 398 48, 400 49, 403 49, 406 50, 408 54, 411 53, 413 53, 415 53, 418 54, 419 53, 420 49, 420 50, 420 51, 420 52
+</trace>
+<trace id="2">
+404 37
+</trace>
+<traceGroup>
+	<traceGroup xml:id="0">
+		<annotation type="truth"></annotation>
+		<traceView traceDataRef="3"/>
+		<traceView traceDataRef="2"/>
+	</traceGroup>
+</traceGroup>
+</ink>

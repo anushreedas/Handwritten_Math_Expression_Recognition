@@ -1,0 +1,28 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat><annotation type="truth"></annotation>
+<annotation type="UI">81_hirata_7097</annotation>
+<trace id="44">
+725 315, 725 309, 726 308, 727 307, 729 306, 730 305, 732 304, 734 304, 737 304, 739 304, 741 304, 743 305, 744 307, 745 308, 746 310, 746 312, 745 315, 744 317, 743 319, 742 322, 740 324, 738 325, 736 327, 734 328, 733 329, 731 329, 730 330, 729 330, 730 329, 731 329, 733 330, 734 330, 736 330, 738 331, 740 333, 742 334, 743 336, 745 337, 747 339, 748 341, 750 342, 751 344, 752 345, 753 346, 754 346, 755 347, 756 347, 756 346, 756 345, 755 344, 755 343
+</trace>
+<trace id="42">
+730 316, 730 315, 730 316, 730 317, 730 318, 730 320, 729 322, 729 324, 729 326, 729 328, 729 331, 729 333, 729 335, 729 337, 730 338, 730 339, 730 340, 729 341, 729 342, 729 340, 728 339, 728 338, 727 336, 727 333, 726 331
+</trace>
+<trace id="43">
+725 315
+</trace>
+<trace id="41">
+730 316
+</trace>
+<traceGroup>
+	<traceGroup xml:id="0">
+		<annotation type="truth"></annotation>
+		<traceView traceDataRef="44"/>
+		<traceView traceDataRef="42"/>
+		<traceView traceDataRef="43"/>
+		<traceView traceDataRef="41"/>
+	</traceGroup>
+</traceGroup>
+</ink>

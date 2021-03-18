@@ -1,0 +1,24 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat><annotation type="truth"></annotation>
+<annotation type="UI">MfrDB3370_83585</annotation>
+<trace id="24">
+818 217 231128, 818 214 231191, 822 211 231237, 832 210 231286, 849 210 231334, 859 210 231383, 865 210 231430, 867 210 231478
+</trace>
+<trace id="25">
+868 128 232453, 868 129 232516, 868 138 232564, 868 153 232612, 868 174 232660, 871 221 232711, 872 242 232762, 872 263 232810, 873 276 232858, 873 284 232907, 873 286 232955
+</trace>
+<trace id="23">
+818 128 229854, 818 130 229968, 818 146 230015, 820 185 230065, 820 255 230114, 820 287 230162, 820 302 230211, 818 304 230259
+</trace>
+<traceGroup>
+	<traceGroup xml:id="0">
+		<annotation type="truth"></annotation>
+		<traceView traceDataRef="24"/>
+		<traceView traceDataRef="25"/>
+		<traceView traceDataRef="23"/>
+	</traceGroup>
+</traceGroup>
+</ink>

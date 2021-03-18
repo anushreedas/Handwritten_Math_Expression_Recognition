@@ -1,0 +1,20 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat><annotation type="truth"></annotation>
+<annotation type="UI">106_fabio_1022</annotation>
+<trace id="9">
+768 102, 766 101, 767 101, 768 101, 786 102, 796 102, 798 102, 800 103, 801 103, 802 103, 802 104, 801 104, 801 105
+</trace>
+<trace id="10">
+764 119, 763 119, 788 116, 791 116, 794 116, 796 116, 798 116, 800 116, 801 116, 802 116, 803 116, 803 117, 803 118, 803 119, 803 120
+</trace>
+<traceGroup>
+	<traceGroup xml:id="0">
+		<annotation type="truth"></annotation>
+		<traceView traceDataRef="9"/>
+		<traceView traceDataRef="10"/>
+	</traceGroup>
+</traceGroup>
+</ink>

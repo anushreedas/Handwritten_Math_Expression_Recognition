@@ -1,0 +1,20 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat><annotation type="truth"></annotation>
+<annotation type="UI">MfrDB3103_80549</annotation>
+<trace id="39">
+800 195 401345, 801 195 401353, 802 195 401363, 803 195 401373, 804 196 401384, 805 196 401394, 807 197 401404, 808 197 401415, 809 197 401435
+</trace>
+<trace id="40">
+796 191 401685, 797 191 401703, 800 191 401713, 802 191 401724, 805 191 401734, 807 191 401744, 808 191 401755, 809 191 401765, 810 191 401775, 811 191 401786, 812 191 401796, 813 191 401806
+</trace>
+<traceGroup>
+	<traceGroup xml:id="0">
+		<annotation type="truth"></annotation>
+		<traceView traceDataRef="39"/>
+		<traceView traceDataRef="40"/>
+	</traceGroup>
+</traceGroup>
+</ink>

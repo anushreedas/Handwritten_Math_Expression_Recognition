@@ -1,0 +1,20 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat><annotation type="truth"></annotation>
+<annotation type="UI">MfrDB3819_85475</annotation>
+<trace id="13">
+440 260 5548031, 438 261 5548034, 447 260 5548063, 451 260 5548089, 452 260 5548107, 453 260 5548126, 454 259 5548144, 454 260 5548162, 454 259 5548181
+</trace>
+<trace id="12">
+437 258 5547535, 436 257 5547572, 440 257 5547601, 452 257 5547619, 454 257 5547638, 454 256 5547662, 453 256 5547680, 452 257 5547700
+</trace>
+<traceGroup>
+	<traceGroup xml:id="0">
+		<annotation type="truth"></annotation>
+		<traceView traceDataRef="13"/>
+		<traceView traceDataRef="12"/>
+	</traceGroup>
+</traceGroup>
+</ink>

@@ -1,0 +1,20 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat><annotation type="truth"></annotation>
+<annotation type="UI">2011_KME2_w28_e96_41040</annotation>
+<trace id="3">
+6482 2090, 6455 2170, 6403 2249, 6323 2328, 6270 2434, 6244 2540, 6217 2619, 6244 2672, 6297 2726, 6350 2778, 6455 2805, 6535 2831, 6641 2831
+</trace>
+<trace id="2">
+5979 2117, 5926 2117, 5926 2117, 5952 2117, 5979 2117, 6005 2143, 6058 2196, 6111 2275, 6164 2355, 6191 2434, 6191 2514, 6191 2593, 6164 2672, 6111 2752, 6058 2805, 6005 2858, 5952 2911, 5899 2911, 5873 2911, 5873 2884
+</trace>
+<traceGroup>
+	<traceGroup xml:id="0">
+		<annotation type="truth"></annotation>
+		<traceView traceDataRef="3"/>
+		<traceView traceDataRef="2"/>
+	</traceGroup>
+</traceGroup>
+</ink>

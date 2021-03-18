@@ -1,0 +1,20 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat><annotation type="truth"></annotation>
+<annotation type="UI">MfrDB3005_79323</annotation>
+<trace id="15">
+527 45 634797
+</trace>
+<trace id="14">
+517 72 632987, 518 72 633077, 519 71 633087, 521 70 633097, 522 69 633108, 523 67 633118, 523 66 633128, 525 64 633138, 526 63 633158, 526 65 633403, 527 66 633413, 527 67 633423, 528 67 633433, 529 68 633453, 530 68 633484, 530 69 633911, 530 70 633921, 531 72 633931, 532 73 633941, 532 74 633972
+</trace>
+<traceGroup>
+	<traceGroup xml:id="0">
+		<annotation type="truth"></annotation>
+		<traceView traceDataRef="15"/>
+		<traceView traceDataRef="14"/>
+	</traceGroup>
+</traceGroup>
+</ink>

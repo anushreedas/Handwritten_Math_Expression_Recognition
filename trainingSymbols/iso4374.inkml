@@ -1,0 +1,28 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat><annotation type="truth"></annotation>
+<annotation type="UI">129_Nina_4374</annotation>
+<trace id="13">
+364 140
+</trace>
+<trace id="15">
+381 125
+</trace>
+<trace id="14">
+364 140, 362 140, 363 140, 364 140, 365 140, 366 140, 368 140, 370 140, 372 140, 374 140, 376 140, 379 140, 381 140, 383 140, 385 140, 387 140, 389 140, 390 140, 391 140, 392 140
+</trace>
+<trace id="16">
+381 125, 380 124, 380 125, 380 126, 380 128, 380 129, 380 131, 380 133, 380 135, 380 138, 379 140, 379 143, 379 145, 378 148, 378 150, 378 152, 378 153, 378 155, 379 156
+</trace>
+<traceGroup>
+	<traceGroup xml:id="0">
+		<annotation type="truth"></annotation>
+		<traceView traceDataRef="13"/>
+		<traceView traceDataRef="15"/>
+		<traceView traceDataRef="14"/>
+		<traceView traceDataRef="16"/>
+	</traceGroup>
+</traceGroup>
+</ink>

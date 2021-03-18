@@ -1,0 +1,36 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat><annotation type="truth"></annotation>
+<annotation type="UI">98_fujita_10081</annotation>
+<trace id="1">
+284 90, 287 89, 287 88, 287 87, 287 86, 286 86, 286 85, 285 85, 284 85, 283 85, 282 85, 281 86, 279 87, 278 88, 276 90, 275 91, 273 94, 272 97, 271 99, 270 102, 271 109, 272 111, 274 112, 276 112, 278 113, 280 113, 282 112, 284 112, 286 111, 288 111, 289 110, 291 110, 292 110, 293 110
+</trace>
+<trace id="0">
+284 90
+</trace>
+<trace id="3">
+321 91, 320 93, 319 93, 315 93, 314 94, 312 98, 312 100, 312 102, 312 105, 312 107, 313 109, 314 110, 315 111, 316 112, 318 113, 319 112, 321 112, 322 111, 324 110, 326 108, 327 106, 329 104, 330 102, 331 100, 331 98, 331 96, 331 95, 331 93, 329 92, 328 91, 326 90, 324 90, 323 90, 321 90, 319 91, 318 91, 316 93, 315 93
+</trace>
+<trace id="2">
+321 91
+</trace>
+<trace id="5">
+364 92, 364 91, 365 91, 364 90, 355 93, 354 94, 353 95, 352 95, 351 96, 351 97, 351 98, 351 99, 352 99, 353 100, 355 100, 357 101, 359 102, 361 102, 363 103, 365 104, 366 105, 368 106, 369 107, 370 108, 370 109, 370 110, 369 111, 368 112, 366 112, 364 113, 362 114, 359 115, 357 115, 355 116, 353 116, 351 117
+</trace>
+<trace id="4">
+364 92
+</trace>
+<traceGroup>
+	<traceGroup xml:id="0">
+		<annotation type="truth"></annotation>
+		<traceView traceDataRef="1"/>
+		<traceView traceDataRef="0"/>
+		<traceView traceDataRef="3"/>
+		<traceView traceDataRef="2"/>
+		<traceView traceDataRef="5"/>
+		<traceView traceDataRef="4"/>
+	</traceGroup>
+</traceGroup>
+</ink>

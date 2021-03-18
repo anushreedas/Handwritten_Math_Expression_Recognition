@@ -1,0 +1,28 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat><annotation type="truth"></annotation>
+<annotation type="UI">MfrDB3529_85091</annotation>
+<trace id="3">
+89 22 342085, 94 22 342173, 95 22 342189, 96 22 342205, 97 22 342221, 97 23 342229, 97 24 342239, 98 24 342247, 98 25 342255, 99 25 342267, 99 26 342285, 100 26 342301, 100 27 342309, 100 28 342319, 100 29 342341, 100 30 342357, 100 31 342366, 100 32 342381, 100 33 342397, 99 33 342413, 98 33 342437, 97 33 342461, 96 33 342485, 95 33 342493, 94 33 342533, 93 33 342573
+</trace>
+<trace id="2">
+90 22 341061, 90 27 341173, 90 28 341189, 90 29 341198, 90 30 341209, 90 32 341221, 90 33 341232, 90 34 341240, 91 34 341251, 91 35 341258, 91 36 341301, 91 37 341318
+</trace>
+<trace id="5">
+91 33 344589, 91 38 344797, 91 39 344853, 91 40 344949
+</trace>
+<trace id="4">
+90 32 343341, 95 35 343525, 96 35 343541, 96 36 343557, 97 36 343566, 98 36 343589, 99 37 343599, 99 38 343606, 100 38 343617, 101 38 343637, 101 39 343725
+</trace>
+<traceGroup>
+	<traceGroup xml:id="0">
+		<annotation type="truth"></annotation>
+		<traceView traceDataRef="3"/>
+		<traceView traceDataRef="2"/>
+		<traceView traceDataRef="5"/>
+		<traceView traceDataRef="4"/>
+	</traceGroup>
+</traceGroup>
+</ink>

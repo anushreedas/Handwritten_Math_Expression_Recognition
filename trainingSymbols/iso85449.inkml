@@ -1,0 +1,20 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat><annotation type="truth"></annotation>
+<annotation type="UI">MfrDB3808_85449</annotation>
+<trace id="33">
+599 224 4796255, 596 229 4796285, 593 233 4796304, 593 234 4796325, 592 234 4796344, 592 233 4796376, 592 232 4796394, 593 231 4796413
+</trace>
+<trace id="34">
+594 225 4796730, 595 228 4796733, 598 229 4796762, 599 230 4796789, 599 229 4796855
+</trace>
+<traceGroup>
+	<traceGroup xml:id="0">
+		<annotation type="truth"></annotation>
+		<traceView traceDataRef="33"/>
+		<traceView traceDataRef="34"/>
+	</traceGroup>
+</traceGroup>
+</ink>

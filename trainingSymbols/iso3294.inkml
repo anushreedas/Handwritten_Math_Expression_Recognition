@@ -1,0 +1,20 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat><annotation type="truth"></annotation>
+<annotation type="UI">118_leo_3294</annotation>
+<trace id="7">
+545 136, 543 136, 548 132, 558 130, 577 128, 579 128, 581 128, 582 128, 583 128, 584 128, 584 129
+</trace>
+<trace id="6">
+548 152, 547 152, 547 151, 550 151, 557 150, 563 150, 580 149, 581 149, 582 148, 583 148, 584 147, 583 146, 582 145, 581 145, 579 144, 577 143, 575 143
+</trace>
+<traceGroup>
+	<traceGroup xml:id="0">
+		<annotation type="truth"></annotation>
+		<traceView traceDataRef="7"/>
+		<traceView traceDataRef="6"/>
+	</traceGroup>
+</traceGroup>
+</ink>

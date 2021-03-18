@@ -1,0 +1,24 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat><annotation type="truth"></annotation>
+<annotation type="UI">111_carlos_2224</annotation>
+<trace id="5">
+536 98, 535 89, 543 76, 544 76, 545 75, 551 75, 553 75, 555 76, 554 76, 552 77, 552 78, 549 79, 547 80, 546 81, 545 81, 541 83, 540 84, 539 85, 538 87, 537 89, 536 91, 536 93, 536 94, 536 96, 537 97, 538 98, 540 99, 543 101, 544 101, 546 101, 547 102, 549 102, 552 102, 554 101, 555 101, 557 101, 558 100, 559 100, 560 100
+</trace>
+<trace id="7">
+609 79, 610 78, 601 85, 603 87, 608 87, 610 87, 614 88, 616 89, 617 90, 618 92, 618 93, 618 94, 617 95, 616 96, 613 97, 612 98, 610 98, 609 98, 607 97, 606 97, 605 96, 604 95
+</trace>
+<trace id="6">
+579 81, 578 80, 571 93, 573 96, 575 98, 577 99, 578 99, 579 99, 581 99, 582 99, 584 98, 585 96, 587 93, 587 91, 587 90, 587 87, 587 84, 586 82, 586 79, 585 78, 584 77, 582 77, 581 77, 580 78, 579 78, 578 79, 577 81, 577 82
+</trace>
+<traceGroup>
+	<traceGroup xml:id="0">
+		<annotation type="truth"></annotation>
+		<traceView traceDataRef="5"/>
+		<traceView traceDataRef="7"/>
+		<traceView traceDataRef="6"/>
+	</traceGroup>
+</traceGroup>
+</ink>

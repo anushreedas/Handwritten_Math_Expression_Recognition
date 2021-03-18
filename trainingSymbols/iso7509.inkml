@@ -1,0 +1,24 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat><annotation type="truth"></annotation>
+<annotation type="UI">82_jorge_7509</annotation>
+<trace id="1">
+498 128, 499 129, 492 214, 492 216, 492 217, 492 219, 493 220, 493 219, 494 219
+</trace>
+<trace id="0">
+495 116, 493 111, 463 129, 462 132, 463 140, 466 146, 470 149, 474 149, 476 148, 480 146, 485 142, 489 138, 493 131, 494 125, 494 124, 492 120, 490 119, 489 120, 487 121, 486 123, 486 124, 485 126, 485 127
+</trace>
+<trace id="2">
+465 194, 475 189, 526 176, 528 175, 529 175
+</trace>
+<traceGroup>
+	<traceGroup xml:id="0">
+		<annotation type="truth"></annotation>
+		<traceView traceDataRef="1"/>
+		<traceView traceDataRef="0"/>
+		<traceView traceDataRef="2"/>
+	</traceGroup>
+</traceGroup>
+</ink>

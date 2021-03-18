@@ -1,0 +1,20 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat><annotation type="truth"></annotation>
+<annotation type="UI">81_Frank_7063</annotation>
+<trace id="17">
+832 208, 831 207, 851 200, 854 202, 856 203, 856 204, 856 205, 855 208, 852 211, 850 212, 848 213, 846 214, 843 216, 842 217, 841 219, 841 220, 842 222, 845 224, 846 225, 850 227, 854 229, 856 230, 857 231, 860 233, 862 235, 863 236, 864 237, 864 238, 865 238, 866 239
+</trace>
+<trace id="16">
+832 206, 833 203, 838 223, 838 229, 838 234, 838 236, 839 237, 839 236, 839 235, 840 233
+</trace>
+<traceGroup>
+	<traceGroup xml:id="0">
+		<annotation type="truth"></annotation>
+		<traceView traceDataRef="17"/>
+		<traceView traceDataRef="16"/>
+	</traceGroup>
+</traceGroup>
+</ink>

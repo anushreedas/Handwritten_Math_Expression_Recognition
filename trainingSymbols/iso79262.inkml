@@ -1,0 +1,24 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat><annotation type="truth"></annotation>
+<annotation type="UI">MfrDB3000_79262</annotation>
+<trace id="19">
+801 310 793778
+</trace>
+<trace id="18">
+801 311 793631, 801 310 793649
+</trace>
+<trace id="27">
+801 311 809380, 801 312 809466, 801 313 809506, 800 312 809868, 800 311 809956, 801 310 810113, 802 310 810182, 803 311 810201
+</trace>
+<traceGroup>
+	<traceGroup xml:id="0">
+		<annotation type="truth"></annotation>
+		<traceView traceDataRef="19"/>
+		<traceView traceDataRef="18"/>
+		<traceView traceDataRef="27"/>
+	</traceGroup>
+</traceGroup>
+</ink>

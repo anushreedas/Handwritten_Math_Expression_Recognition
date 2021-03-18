@@ -1,0 +1,28 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat><annotation type="truth"></annotation>
+<annotation type="UI">96_bruno_9669</annotation>
+<trace id="19">
+754 134, 754 133, 758 143, 756 159, 755 160, 755 161, 754 161, 755 161, 756 160, 756 159, 757 157, 758 156, 760 153, 761 151, 763 148, 765 145, 767 142, 769 139, 771 137, 774 135, 776 133, 779 132, 782 132, 784 132, 787 133, 789 135, 790 137, 791 139, 791 142, 790 145, 789 149, 788 152, 786 154, 785 157, 784 159, 784 160, 785 161, 786 160, 788 159, 789 158, 791 157
+</trace>
+<trace id="18">
+724 125, 722 125
+</trace>
+<trace id="17">
+716 138, 717 137, 714 149, 713 154, 713 156, 714 157, 715 158, 717 158, 721 158, 723 158, 725 157, 726 156, 728 154, 728 153, 727 153, 727 152
+</trace>
+<trace id="16">
+686 137, 687 136, 687 135, 688 133, 674 136, 666 146, 667 146, 668 147, 671 148, 673 148, 677 149, 680 150, 683 151, 686 152, 688 153, 689 154, 689 156, 688 158, 686 159, 683 160, 680 161, 673 162, 670 162, 668 162, 666 162, 664 161, 663 160, 664 159
+</trace>
+<traceGroup>
+	<traceGroup xml:id="0">
+		<annotation type="truth"></annotation>
+		<traceView traceDataRef="19"/>
+		<traceView traceDataRef="18"/>
+		<traceView traceDataRef="17"/>
+		<traceView traceDataRef="16"/>
+	</traceGroup>
+</traceGroup>
+</ink>

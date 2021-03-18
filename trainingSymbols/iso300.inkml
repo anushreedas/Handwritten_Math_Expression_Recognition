@@ -1,0 +1,20 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat><annotation type="truth"></annotation>
+<annotation type="UI">101_mijail_300</annotation>
+<trace id="15">
+688 122, 689 121, 689 122, 688 123, 684 141, 685 142, 686 143, 687 143, 689 143, 691 143, 692 142, 694 141, 695 140, 696 139, 697 138, 698 137
+</trace>
+<trace id="16">
+689 111, 688 111, 689 111
+</trace>
+<traceGroup>
+	<traceGroup xml:id="0">
+		<annotation type="truth"></annotation>
+		<traceView traceDataRef="15"/>
+		<traceView traceDataRef="16"/>
+	</traceGroup>
+</traceGroup>
+</ink>

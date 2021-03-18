@@ -1,0 +1,24 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat><annotation type="truth"></annotation>
+<annotation type="UI">101_alfonso_18</annotation>
+<trace id="21">
+898 114, 897 113, 901 109, 902 108, 911 109, 912 110, 913 110, 914 111, 915 111, 917 111, 918 110, 921 109, 922 108, 924 107, 925 106, 926 105, 927 104, 928 104, 928 103, 929 103, 929 102
+</trace>
+<trace id="22">
+912 110, 911 109, 910 109, 908 113, 903 127, 898 140, 898 141, 899 141, 899 140, 900 139, 901 138, 902 136, 903 135, 904 133
+</trace>
+<trace id="23">
+916 113, 918 112, 916 133, 916 134, 916 135, 916 136, 916 137, 917 136
+</trace>
+<traceGroup>
+	<traceGroup xml:id="0">
+		<annotation type="truth"></annotation>
+		<traceView traceDataRef="21"/>
+		<traceView traceDataRef="22"/>
+		<traceView traceDataRef="23"/>
+	</traceGroup>
+</traceGroup>
+</ink>

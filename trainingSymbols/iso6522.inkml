@@ -1,0 +1,20 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat><annotation type="truth"></annotation>
+<annotation type="UI">79_silas_6522</annotation>
+<trace id="18">
+962 173, 968 173, 971 173, 980 175, 981 175, 981 176, 982 176, 982 175
+</trace>
+<trace id="17">
+962 184, 963 183, 972 158, 973 154, 974 152, 977 146, 978 143, 979 143, 980 143, 981 143, 981 144, 982 146, 982 148, 983 153, 983 156, 983 159, 984 163, 984 166, 984 169, 985 171, 986 174, 986 176, 987 178, 988 179, 988 180, 989 181, 989 182, 990 182, 990 181, 989 180, 988 180
+</trace>
+<traceGroup>
+	<traceGroup xml:id="0">
+		<annotation type="truth"></annotation>
+		<traceView traceDataRef="18"/>
+		<traceView traceDataRef="17"/>
+	</traceGroup>
+</traceGroup>
+</ink>

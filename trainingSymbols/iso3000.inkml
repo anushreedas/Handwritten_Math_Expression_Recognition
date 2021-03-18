@@ -1,0 +1,20 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat><annotation type="truth"></annotation>
+<annotation type="UI">117_leo_3000</annotation>
+<trace id="22">
+929 103, 930 100, 932 121, 932 125, 932 129, 932 132, 932 135, 932 137, 932 139, 932 141, 932 142, 933 143, 933 142, 932 142, 932 141, 931 140, 930 139
+</trace>
+<trace id="23">
+919 129, 922 125, 934 123, 942 123, 944 123, 946 123, 948 123, 949 123, 950 123, 949 123, 949 124, 948 124, 947 124
+</trace>
+<traceGroup>
+	<traceGroup xml:id="0">
+		<annotation type="truth"></annotation>
+		<traceView traceDataRef="22"/>
+		<traceView traceDataRef="23"/>
+	</traceGroup>
+</traceGroup>
+</ink>

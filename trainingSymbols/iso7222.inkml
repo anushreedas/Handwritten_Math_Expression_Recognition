@@ -1,0 +1,28 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat><annotation type="truth"></annotation>
+<annotation type="UI">81_Nina_7222</annotation>
+<trace id="19">
+416 108, 417 108, 418 107, 419 107, 420 107, 422 107, 423 106, 425 106, 427 105, 429 105, 430 105, 431 104, 433 104, 434 104, 435 104, 435 103
+</trace>
+<trace id="18">
+416 108
+</trace>
+<trace id="17">
+410 121, 410 120, 411 120, 411 119, 411 118, 412 117, 412 116, 413 114, 414 112, 415 110, 416 108, 417 105, 418 102, 419 99, 420 96, 422 93, 423 90, 424 87, 425 84, 426 82, 427 80, 428 79, 429 78, 429 77, 430 76, 431 75, 431 76, 431 77, 432 78, 432 79, 432 80, 433 82, 433 84, 434 87, 434 90, 435 92, 435 95, 436 98, 436 101, 437 104, 437 107, 438 110, 438 113, 438 115, 438 117, 438 119, 438 121, 438 122, 439 122, 439 123, 439 122
+</trace>
+<trace id="16">
+410 121
+</trace>
+<traceGroup>
+	<traceGroup xml:id="0">
+		<annotation type="truth"></annotation>
+		<traceView traceDataRef="19"/>
+		<traceView traceDataRef="18"/>
+		<traceView traceDataRef="17"/>
+		<traceView traceDataRef="16"/>
+	</traceGroup>
+</traceGroup>
+</ink>

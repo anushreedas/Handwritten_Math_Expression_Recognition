@@ -1,0 +1,24 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat><annotation type="truth"></annotation>
+<annotation type="UI">MfrDB3572_85396</annotation>
+<trace id="44">
+870 292 612587, 875 289 612768
+</trace>
+<trace id="45">
+871 292 614979, 876 296 615336, 876 298 615377
+</trace>
+<trace id="43">
+870 278 611555, 870 284 611625, 870 286 611641, 870 288 611665, 870 290 611681, 870 292 611713, 870 294 611745, 870 296 611961, 870 298 611977, 870 300 612049
+</trace>
+<traceGroup>
+	<traceGroup xml:id="0">
+		<annotation type="truth"></annotation>
+		<traceView traceDataRef="44"/>
+		<traceView traceDataRef="45"/>
+		<traceView traceDataRef="43"/>
+	</traceGroup>
+</traceGroup>
+</ink>

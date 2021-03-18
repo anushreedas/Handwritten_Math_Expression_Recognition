@@ -1,0 +1,20 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat><annotation type="truth"></annotation>
+<annotation type="UI">108_Willian_1604</annotation>
+<trace id="11">
+466 102, 466 103, 465 103, 466 101, 470 100, 471 100, 472 101, 473 102, 473 103, 473 104, 474 104, 474 105, 474 106, 474 107, 474 108, 473 109, 473 110, 472 111, 471 112, 470 113, 469 113, 468 114, 468 113, 469 113, 469 112, 470 111
+</trace>
+<trace id="12">
+482 100, 485 98, 483 98, 474 113, 474 114, 475 115, 477 116, 478 116, 479 116, 481 116, 482 116, 483 116, 484 116, 485 116, 486 116, 487 116, 488 115, 488 114
+</trace>
+<traceGroup>
+	<traceGroup xml:id="0">
+		<annotation type="truth"></annotation>
+		<traceView traceDataRef="11"/>
+		<traceView traceDataRef="12"/>
+	</traceGroup>
+</traceGroup>
+</ink>

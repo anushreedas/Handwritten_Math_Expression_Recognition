@@ -1,0 +1,20 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat><annotation type="truth"></annotation>
+<annotation type="UI">81_mijail_7199</annotation>
+<trace id="18">
+516 135, 515 134, 520 128, 525 125, 533 124, 536 125, 538 126, 540 127, 541 128, 543 129, 544 131, 545 132, 546 134, 546 135, 545 136, 544 138, 543 139, 541 140, 539 142, 537 143, 535 144, 533 144, 531 145, 529 146, 528 146, 527 146, 527 147, 528 147, 529 148, 530 148, 532 149, 534 150, 536 151, 538 152, 541 153, 543 154, 545 155, 547 155, 548 156, 550 157, 551 158, 552 158, 553 159, 554 160, 555 160, 556 161, 557 162, 558 162, 559 162
+</trace>
+<trace id="17">
+527 127, 530 139, 530 159, 530 160, 530 161, 530 159, 530 158
+</trace>
+<traceGroup>
+	<traceGroup xml:id="0">
+		<annotation type="truth"></annotation>
+		<traceView traceDataRef="18"/>
+		<traceView traceDataRef="17"/>
+	</traceGroup>
+</traceGroup>
+</ink>

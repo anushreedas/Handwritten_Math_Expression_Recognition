@@ -1,0 +1,20 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat><annotation type="truth"></annotation>
+<annotation type="UI">109_Nina_1778</annotation>
+<trace id="1">
+215 324, 215 326, 220 349, 220 351, 224 366, 228 367, 230 347, 232 319, 234 286, 235 266, 235 252, 234 244, 235 242, 236 237, 236 236, 238 236, 246 236, 263 235, 285 233, 304 233, 313 233, 315 234, 316 235, 319 235, 321 236, 322 236, 323 237, 324 239, 324 245, 324 254
+</trace>
+<trace id="0">
+215 324
+</trace>
+<traceGroup>
+	<traceGroup xml:id="0">
+		<annotation type="truth"></annotation>
+		<traceView traceDataRef="1"/>
+		<traceView traceDataRef="0"/>
+	</traceGroup>
+</traceGroup>
+</ink>

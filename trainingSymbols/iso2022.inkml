@@ -1,0 +1,20 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat><annotation type="truth"></annotation>
+<annotation type="UI">110_fujita_2022</annotation>
+<trace id="9">
+380 129
+</trace>
+<trace id="10">
+380 129, 380 129, 381 126, 381 124, 382 123, 382 121, 382 119, 383 118, 383 117, 383 119, 382 120, 382 122, 382 124, 382 127, 381 129, 381 132, 380 135, 380 137, 379 139, 379 141, 378 143, 378 144, 378 146, 377 146, 377 147
+</trace>
+<traceGroup>
+	<traceGroup xml:id="0">
+		<annotation type="truth"></annotation>
+		<traceView traceDataRef="9"/>
+		<traceView traceDataRef="10"/>
+	</traceGroup>
+</traceGroup>
+</ink>

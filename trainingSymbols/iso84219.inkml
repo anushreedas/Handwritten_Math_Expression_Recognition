@@ -1,0 +1,20 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat><annotation type="truth"></annotation>
+<annotation type="UI">MfrDB3431_84219</annotation>
+<trace id="3">
+77 53 143693, 91 51 144086, 92 51 144125, 93 51 144156, 94 51 144188
+</trace>
+<trace id="2">
+79 41 142556, 88 41 142963, 89 41 143047, 90 41 143068, 93 41 143119, 94 41 143149, 95 41 143194
+</trace>
+<traceGroup>
+	<traceGroup xml:id="0">
+		<annotation type="truth"></annotation>
+		<traceView traceDataRef="3"/>
+		<traceView traceDataRef="2"/>
+	</traceGroup>
+</traceGroup>
+</ink>

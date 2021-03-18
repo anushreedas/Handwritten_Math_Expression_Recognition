@@ -1,0 +1,20 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat><annotation type="truth"></annotation>
+<annotation type="UI">89_caue_8004</annotation>
+<trace id="11">
+618 72, 617 73, 619 72, 622 68, 633 58, 634 57, 635 57, 636 56, 637 55, 638 54, 639 54, 639 53, 640 53
+</trace>
+<trace id="10">
+618 61, 618 62, 618 71, 618 73, 621 80, 622 81, 623 81, 624 82, 626 83, 627 83, 628 83, 630 84, 631 84, 632 84, 633 83, 634 83, 635 82, 636 82, 636 80, 637 79, 637 78, 638 76, 638 74, 639 72, 639 70, 639 68, 640 66, 640 64, 640 61, 640 59, 640 57, 640 55, 640 54, 640 52, 639 50, 639 49, 639 47, 638 46, 638 45, 637 44, 637 43, 636 42, 635 41, 634 40, 633 40, 632 40, 631 40, 630 41, 629 41, 628 42, 627 43, 626 44, 625 45, 624 46, 624 47, 623 48, 622 49, 622 50, 621 51, 621 52, 621 53, 620 54, 620 55, 620 56, 620 57, 620 58, 620 59, 620 60, 620 61, 620 62, 620 63, 620 64, 620 65
+</trace>
+<traceGroup>
+	<traceGroup xml:id="0">
+		<annotation type="truth"></annotation>
+		<traceView traceDataRef="11"/>
+		<traceView traceDataRef="10"/>
+	</traceGroup>
+</traceGroup>
+</ink>

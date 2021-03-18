@@ -1,0 +1,20 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat><annotation type="truth"></annotation>
+<annotation type="UI">124_silas_3681</annotation>
+<trace id="5">
+592 201, 591 201, 612 201, 616 201, 619 201, 622 200, 625 200, 627 200, 630 200, 632 200, 634 200, 635 200, 637 200, 638 200, 639 200, 640 200, 640 201, 640 200
+</trace>
+<trace id="4">
+588 175, 588 176, 601 175, 604 175, 618 175, 622 176, 625 176, 628 176, 631 176, 633 176, 634 176, 636 176, 637 176, 637 175, 638 175, 639 175
+</trace>
+<traceGroup>
+	<traceGroup xml:id="0">
+		<annotation type="truth"></annotation>
+		<traceView traceDataRef="5"/>
+		<traceView traceDataRef="4"/>
+	</traceGroup>
+</traceGroup>
+</ink>

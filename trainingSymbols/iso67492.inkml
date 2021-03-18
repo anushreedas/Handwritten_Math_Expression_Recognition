@@ -1,0 +1,20 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat><annotation type="truth"></annotation>
+<annotation type="UI">MfrDB0732_67492</annotation>
+<trace id="1">
+364 315 112017, 366 315 112065, 367 315 112076, 369 315 112087, 382 315 112098, 386 315 112109, 392 314 112120, 400 313 112132, 402 313 112143, 407 312 112154
+</trace>
+<trace id="2">
+366 321 112425, 367 322 112465, 368 322 112476, 370 322 112488, 376 322 112500, 379 322 112511, 385 322 112523, 391 321 112534, 399 320 112545, 403 319 112556, 405 319 112567, 412 317 112578, 414 317 112588, 414 316 112600, 415 316 112611
+</trace>
+<traceGroup>
+	<traceGroup xml:id="0">
+		<annotation type="truth"></annotation>
+		<traceView traceDataRef="1"/>
+		<traceView traceDataRef="2"/>
+	</traceGroup>
+</traceGroup>
+</ink>

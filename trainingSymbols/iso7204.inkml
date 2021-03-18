@@ -1,0 +1,24 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat><annotation type="truth"></annotation>
+<annotation type="UI">81_mijail_7204</annotation>
+<trace id="1">
+318 64, 319 61, 318 62, 318 64, 319 76, 320 80, 321 85, 322 96, 323 106, 327 126, 328 126, 328 125, 328 123, 328 122, 328 121
+</trace>
+<trace id="0">
+318 62, 319 60, 318 62, 295 121, 294 122, 294 121, 295 120, 296 118, 297 116, 298 114, 299 112, 301 109
+</trace>
+<trace id="2">
+305 102, 303 102, 321 102, 326 101, 327 101, 328 101, 329 101, 330 100, 331 101
+</trace>
+<traceGroup>
+	<traceGroup xml:id="0">
+		<annotation type="truth"></annotation>
+		<traceView traceDataRef="1"/>
+		<traceView traceDataRef="0"/>
+		<traceView traceDataRef="2"/>
+	</traceGroup>
+</traceGroup>
+</ink>

@@ -1,0 +1,20 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat><annotation type="truth"></annotation>
+<annotation type="UI">76_maira_6195</annotation>
+<trace id="1">
+443 152, 442 153, 444 153, 446 153, 461 151, 462 151, 463 151, 463 150, 462 150, 462 149
+</trace>
+<trace id="2">
+442 131, 445 131, 465 130, 467 129, 468 129, 470 129, 471 129, 472 130, 473 131
+</trace>
+<traceGroup>
+	<traceGroup xml:id="0">
+		<annotation type="truth"></annotation>
+		<traceView traceDataRef="1"/>
+		<traceView traceDataRef="2"/>
+	</traceGroup>
+</traceGroup>
+</ink>

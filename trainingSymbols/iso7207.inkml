@@ -1,0 +1,24 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat><annotation type="truth"></annotation>
+<annotation type="UI">81_mijail_7207</annotation>
+<trace id="33">
+903 179, 911 172, 927 167, 928 167, 929 167
+</trace>
+<trace id="32">
+904 167, 905 166, 908 175, 907 185, 907 186, 907 185, 907 184, 908 184, 909 183, 909 182, 910 181, 911 180, 912 179, 912 178
+</trace>
+<trace id="34">
+909 176, 920 182, 921 182, 922 182
+</trace>
+<traceGroup>
+	<traceGroup xml:id="0">
+		<annotation type="truth"></annotation>
+		<traceView traceDataRef="33"/>
+		<traceView traceDataRef="32"/>
+		<traceView traceDataRef="34"/>
+	</traceGroup>
+</traceGroup>
+</ink>

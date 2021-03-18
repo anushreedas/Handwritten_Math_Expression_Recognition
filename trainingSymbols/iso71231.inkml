@@ -1,0 +1,20 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat><annotation type="truth"></annotation>
+<annotation type="UI">MfrDB1708_71231</annotation>
+<trace id="15">
+740 213 1480803, 744 213 1480922, 747 213 1480937, 757 213 1480954, 770 213 1480971, 778 213 1480988, 780 213 1481004, 781 213 1481021, 782 213 1481038, 783 213 1481059, 784 213 1481123
+</trace>
+<trace id="16">
+743 227 1481867, 744 227 1481914, 745 227 1481929, 750 227 1481946, 763 227 1481963, 774 227 1481980, 784 227 1481997, 791 227 1482014, 797 228 1482030, 799 228 1482047, 801 229 1482064
+</trace>
+<traceGroup>
+	<traceGroup xml:id="0">
+		<annotation type="truth"></annotation>
+		<traceView traceDataRef="15"/>
+		<traceView traceDataRef="16"/>
+	</traceGroup>
+</traceGroup>
+</ink>

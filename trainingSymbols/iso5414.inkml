@@ -1,0 +1,20 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat><annotation type="truth"></annotation>
+<annotation type="UI">70_Fabricio_5414</annotation>
+<trace id="15">
+727 261, 727 264, 727 287, 727 288, 727 289, 727 290, 727 289, 727 288, 727 287, 727 286
+</trace>
+<trace id="14">
+713 278, 712 278, 726 279, 736 277, 738 277, 739 276, 740 276, 739 276, 738 276, 737 276
+</trace>
+<traceGroup>
+	<traceGroup xml:id="0">
+		<annotation type="truth"></annotation>
+		<traceView traceDataRef="15"/>
+		<traceView traceDataRef="14"/>
+	</traceGroup>
+</traceGroup>
+</ink>

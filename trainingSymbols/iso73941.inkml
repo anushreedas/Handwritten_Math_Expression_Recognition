@@ -1,0 +1,20 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat><annotation type="truth"></annotation>
+<annotation type="UI">MfrDB2020_73941</annotation>
+<trace id="22">
+546 406, 546 407, 545 407, 545 408, 544 409, 543 410, 543 412, 542 413, 541 414, 540 417, 540 418, 540 419, 539 419, 538 420, 538 421, 538 423, 537 423, 536 424, 535 425, 534 426, 533 427, 533 428, 533 429, 532 429, 531 430, 531 431, 530 432, 529 433, 528 434, 527 434, 527 435, 526 435, 526 436, 525 436, 524 438, 523 439
+</trace>
+<trace id="23">
+522 403, 523 403, 524 404, 525 405, 525 406, 526 406, 526 408, 527 408, 528 409, 529 412, 531 413, 531 414, 532 415, 533 417, 533 419, 534 420, 535 422, 536 424, 536 426, 537 429, 538 429, 540 431, 541 431, 541 432, 541 433, 541 434, 542 435, 542 437, 542 438, 543 439, 543 440, 543 441, 544 442, 545 442
+</trace>
+<traceGroup>
+	<traceGroup xml:id="0">
+		<annotation type="truth"></annotation>
+		<traceView traceDataRef="22"/>
+		<traceView traceDataRef="23"/>
+	</traceGroup>
+</traceGroup>
+</ink>

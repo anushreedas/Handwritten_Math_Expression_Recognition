@@ -1,0 +1,20 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat><annotation type="truth"></annotation>
+<annotation type="UI">MfrDB0808_67534</annotation>
+<trace id="3">
+400 69, 400 70, 400 71, 400 72, 400 73, 400 74, 400 75, 401 75, 401 76, 402 76, 403 76, 404 76, 404 75, 403 75, 402 75, 401 75, 400 75, 399 75, 398 75, 397 75
+</trace>
+<trace id="4">
+400 62
+</trace>
+<traceGroup>
+	<traceGroup xml:id="0">
+		<annotation type="truth"></annotation>
+		<traceView traceDataRef="3"/>
+		<traceView traceDataRef="4"/>
+	</traceGroup>
+</traceGroup>
+</ink>

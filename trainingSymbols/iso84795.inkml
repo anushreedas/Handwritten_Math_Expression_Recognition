@@ -1,0 +1,24 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat><annotation type="truth"></annotation>
+<annotation type="UI">MfrDB3493_84795</annotation>
+<trace id="9">
+270 79 136199, 270 81 136316, 270 83 136332, 270 85 136364, 270 87 136404
+</trace>
+<trace id="8">
+271 89 134191
+</trace>
+<trace id="7">
+273 49 133767, 273 51 133828, 273 53 133836, 273 55 133844, 273 57 133852, 272 59 133860, 271 61 133868, 271 65 133876, 271 67 133884, 271 71 133892, 271 73 133900, 271 75 133908, 271 77 133916
+</trace>
+<traceGroup>
+	<traceGroup xml:id="0">
+		<annotation type="truth"></annotation>
+		<traceView traceDataRef="9"/>
+		<traceView traceDataRef="8"/>
+		<traceView traceDataRef="7"/>
+	</traceGroup>
+</traceGroup>
+</ink>

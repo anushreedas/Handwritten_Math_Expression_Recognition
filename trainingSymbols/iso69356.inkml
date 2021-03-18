@@ -1,0 +1,28 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat><annotation type="truth"></annotation>
+<annotation type="UI">MfrDB1476_69356</annotation>
+<trace id="13">
+595 358 814666, 595 358 814677, 595 357 814680, 595 357 814694, 595 357 814733, 594 361 814746, 592 367 814778, 583 409 814810, 582 418 814844
+</trace>
+<trace id="15">
+575 374 815286, 574 374 815290, 572 374 815309, 572 374 815325, 572 374 815343, 573 374 815344, 582 373 815377, 586 372 815407
+</trace>
+<trace id="14">
+587 347 815018, 587 347 815026, 587 347 815034, 587 347 815040, 587 347 815049, 587 347 815056, 587 348 815063, 587 348 815069, 588 348 815078, 590 349 815093, 592 350 815109, 604 352 815143, 623 354 815175
+</trace>
+<trace id="17">
+569 372 817543, 569 372 817554, 569 372 817559, 569 372 817565, 569 372 817573, 570 372 817582, 570 372 817587, 571 372 817595, 572 372 817616, 573 372 817633, 576 372 817667, 583 371 817700, 592 372 817733, 600 372 817769, 605 372 817799, 609 372 817833, 611 372 817866, 615 372 817899
+</trace>
+<traceGroup>
+	<traceGroup xml:id="0">
+		<annotation type="truth"></annotation>
+		<traceView traceDataRef="13"/>
+		<traceView traceDataRef="15"/>
+		<traceView traceDataRef="14"/>
+		<traceView traceDataRef="17"/>
+	</traceGroup>
+</traceGroup>
+</ink>

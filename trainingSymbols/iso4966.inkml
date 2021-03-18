@@ -1,0 +1,20 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat><annotation type="truth"></annotation>
+<annotation type="UI">131_Fabricio_4966</annotation>
+<trace id="13">
+481 184, 482 184, 502 183, 504 183, 505 183, 504 184, 503 184, 502 183, 502 182
+</trace>
+<trace id="14">
+493 173, 493 174, 494 185, 494 189, 494 193, 494 194, 495 195, 495 194, 496 193
+</trace>
+<traceGroup>
+	<traceGroup xml:id="0">
+		<annotation type="truth"></annotation>
+		<traceView traceDataRef="13"/>
+		<traceView traceDataRef="14"/>
+	</traceGroup>
+</traceGroup>
+</ink>

@@ -1,0 +1,20 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat><annotation type="truth"></annotation>
+<annotation type="UI">MfrDB1806_71995</annotation>
+<trace id="7">
+855 254 69984, 856 254 70062, 858 254 70078, 861 254 70078, 865 254 70094, 868 254 70094, 871 254 70109, 875 254 70109, 877 254 70125, 878 254 70141, 879 254 70156, 880 254 70172, 881 254 70203, 882 254 70219, 884 254 70234, 885 254 70250
+</trace>
+<trace id="6">
+866 244 69406, 867 244 69469, 867 245 69484, 867 247 69484, 867 251 69531, 867 253 69531, 867 256 69547, 867 260 69547, 867 262 69562, 867 265 69562, 867 267 69578, 867 270 69578, 868 272 69594, 868 273 69594, 868 274 69609, 868 275 69609
+</trace>
+<traceGroup>
+	<traceGroup xml:id="0">
+		<annotation type="truth"></annotation>
+		<traceView traceDataRef="7"/>
+		<traceView traceDataRef="6"/>
+	</traceGroup>
+</traceGroup>
+</ink>

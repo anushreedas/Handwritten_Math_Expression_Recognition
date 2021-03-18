@@ -1,0 +1,20 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat><annotation type="truth"></annotation>
+<annotation type="UI">85_miguel_7894</annotation>
+<trace id="3">
+551 82, 552 81, 540 106, 540 109, 541 111, 543 112, 546 113, 547 114, 549 114, 552 113, 553 113, 554 112, 554 111, 554 110, 554 109, 554 108
+</trace>
+<trace id="4">
+536 92, 538 94, 558 92
+</trace>
+<traceGroup>
+	<traceGroup xml:id="0">
+		<annotation type="truth"></annotation>
+		<traceView traceDataRef="3"/>
+		<traceView traceDataRef="4"/>
+	</traceGroup>
+</traceGroup>
+</ink>

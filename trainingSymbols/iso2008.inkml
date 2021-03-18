@@ -1,0 +1,28 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat><annotation type="truth"></annotation>
+<annotation type="UI">110_fujita_2008</annotation>
+<trace id="24">
+530 197
+</trace>
+<trace id="25">
+530 197, 531 197, 532 196, 534 195, 535 195, 537 195, 539 195, 540 195, 542 195, 544 196, 545 197, 547 198, 548 199, 549 200, 550 202, 550 203, 550 205, 550 206, 549 207, 548 209, 546 210, 545 211, 543 212, 541 212, 540 213, 538 214, 537 214, 536 215, 535 215, 534 215, 533 215
+</trace>
+<trace id="22">
+538 180
+</trace>
+<trace id="23">
+538 180, 537 181, 537 182, 536 183, 535 187, 535 189, 535 191, 534 194, 534 197, 533 199, 533 202, 533 204, 532 207, 532 209, 532 210, 532 211, 532 212, 532 213, 532 214, 533 214, 533 213
+</trace>
+<traceGroup>
+	<traceGroup xml:id="0">
+		<annotation type="truth"></annotation>
+		<traceView traceDataRef="24"/>
+		<traceView traceDataRef="25"/>
+		<traceView traceDataRef="22"/>
+		<traceView traceDataRef="23"/>
+	</traceGroup>
+</traceGroup>
+</ink>

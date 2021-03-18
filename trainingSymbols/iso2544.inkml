@@ -1,0 +1,20 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat><annotation type="truth"></annotation>
+<annotation type="UI">116_caue_2544</annotation>
+<trace id="3">
+415 97, 412 97, 414 97, 418 97, 430 96, 431 96, 431 97
+</trace>
+<trace id="2">
+415 89, 413 89, 412 89, 413 89, 414 89, 415 89, 416 89, 417 89, 418 89, 419 88, 428 89
+</trace>
+<traceGroup>
+	<traceGroup xml:id="0">
+		<annotation type="truth"></annotation>
+		<traceView traceDataRef="3"/>
+		<traceView traceDataRef="2"/>
+	</traceGroup>
+</traceGroup>
+</ink>

@@ -1,0 +1,20 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat><annotation type="truth"></annotation>
+<annotation type="UI">MfrDB2911_78045</annotation>
+<trace id="3">
+333 39, 333 40, 333 43, 333 44, 332 47, 332 50, 332 53, 332 55, 332 58, 332 59, 332 62, 332 63, 332 65, 332 67, 332 68, 332 70, 332 73, 332 75, 332 78, 332 79, 332 80, 332 81, 332 82, 332 83, 332 85, 332 86
+</trace>
+<trace id="4">
+312 62, 314 62, 316 62, 318 62, 321 62, 324 62, 329 62, 333 62, 338 62, 342 62, 346 62, 348 62, 349 62, 350 62, 351 62, 352 62, 354 62, 356 62, 357 62, 358 62, 359 62
+</trace>
+<traceGroup>
+	<traceGroup xml:id="0">
+		<annotation type="truth"></annotation>
+		<traceView traceDataRef="3"/>
+		<traceView traceDataRef="4"/>
+	</traceGroup>
+</traceGroup>
+</ink>
