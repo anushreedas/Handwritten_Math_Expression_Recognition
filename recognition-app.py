@@ -19,27 +19,29 @@ def handle_predict():
 
         print(f"Got request with file_id: {file_id}")
         # print(input_strokes)
+
+        # loop through elements of input_strokes[]
         for elem in input_strokes:
+            # get list of coords
             ls = elem['points']
-            output_path = 'outputimg'
-            image = None
+            # store the coords in a 2D array
+            coords = None
             for subls in ls.split(','):
                 # print(subls)
-
                 data = subls.split()
                 data = [int(x) for x in data]
-                # print(image)
-                if image is None:
-                    image = np.array(data)
+                if coords is None:
+                    coords = np.array(data)
                 else:
-                    image = np.vstack((image, data))
-            x, y = zip(*image)
+                    coords = np.vstack((coords, data))
+            x, y = zip(*coords)
 
         #     plt.plot(x, y, linewidth=2, c='black')
+        # output_path = 'outputimg'
         # plt.savefig(output_path + '.png', bbox_inches='tight', dpi=100)
         # plt.gcf().clear()
 
-
+        # call classifier here
         # Return results.
         return jsonify({
             "latex"  : "x",
