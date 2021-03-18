@@ -1,3 +1,6 @@
+import numpy as np
+import matplotlib.pyplot as plt
+
 from flask      import Flask, Blueprint, request, jsonify
 from flask_cors import CORS
 
@@ -15,10 +18,27 @@ def handle_predict():
         input_strokes = j_obj["input_strokes"]
 
         print(f"Got request with file_id: {file_id}")
+        # print(input_strokes)
+        for elem in input_strokes:
+            ls = elem['points']
+            output_path = 'outputimg'
+            image = None
+            for subls in ls.split(','):
+                # print(subls)
 
-        #
-        # Do something here.
-        #
+                data = subls.split()
+                data = [int(x) for x in data]
+                print(image)
+                if image is None:
+                    image = np.array(data)
+                else:
+                    image = np.vstack((image, data))
+            x, y = zip(*image)
+
+        #     plt.plot(x, y, linewidth=2, c='black')
+        # plt.savefig(output_path + '.png', bbox_inches='tight', dpi=100)
+        # plt.gcf().clear()
+
 
         # Return results.
         return jsonify({
