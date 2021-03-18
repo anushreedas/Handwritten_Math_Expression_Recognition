@@ -28,7 +28,7 @@ def handle_predict():
 
                 data = subls.split()
                 data = [int(x) for x in data]
-                print(image)
+                # print(image)
                 if image is None:
                     image = np.array(data)
                 else:
@@ -42,8 +42,8 @@ def handle_predict():
 
         # Return results.
         return jsonify({
-            "latex"  : "hello",
-            "mathml" : "world"
+            "latex"  : "x",
+            "mathml" : "x"
         })
 
 
