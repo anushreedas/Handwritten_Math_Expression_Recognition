@@ -7,7 +7,11 @@ import xml.etree.ElementTree as ET
 import os
 import numpy as np
 from tqdm import tqdm
+from PIL import Image
+from numpy import asarray
+import pandas as pd
 
+Labels = []
 
 def get_traces_data(inkml_file_abs_path,classresult):
     traces_data = []
@@ -16,17 +20,16 @@ def get_traces_data(inkml_file_abs_path,classresult):
     root = tree.getroot()
     doc_namespace = "{http://www.w3.org/2003/InkML}"
 
-    # print inkml file
-    rough_string = ElementTree.tostring(root, 'utf-8')
-    reparsed = minidom.parseString(rough_string)
-    # print(reparsed.toprettyxml(indent="\t"))
-
     # get label
     ui = root.find(doc_namespace + "annotation[@type='UI']")
     ui = ui.text.replace('"','')
     label = classresult[ui]
+    label=label.replace('\\','slash_')
+    if label not in Labels:
+        print(label)
+        Labels.append(label)
     # process only 10 files for each class to reduce execution time for now
-    if os.path.exists(outputdir +'/'+ label) and len(os.listdir(outputdir +'/'+ label)) > 10:
+    if os.path.exists(outputdir +'/'+ label) and len(os.listdir(outputdir +'/'+ label)) > 1:
         return None
 
     'Stores traces_all with their corresponding id'
@@ -82,17 +85,12 @@ def inkml2img(input_path, output_path,classresult):
 
             plt.gca().invert_yaxis()
             plt.gca().set_aspect('equal', adjustable='box')
-            # plt.axes().get_xaxis().set_visible(False)
-            # plt.axes().get_yaxis().set_visible(False)
-            # plt.axes().spines['top'].set_visible(False)
-            # plt.axes().spines['right'].set_visible(False)
-            # plt.axes().spines['bottom'].set_visible(False)
-            # plt.axes().spines['left'].set_visible(False)
-            ls = elem['trace_group']
+            plt.axis('off')
+            trace = elem['trace_group']
             output_path = output_path
 
             # plot coords
-            for subls in ls:
+            for subls in trace:
                 # print(subls)
                 data = np.array(subls)
                 if len(data[0]) == 2:
@@ -117,6 +115,10 @@ def inkml2img(input_path, output_path,classresult):
 
             plt.savefig(ind_output_path + '/' + path + '.png', bbox_inches='tight', dpi=100)
             plt.gcf().clear()
+            image = Image.open(ind_output_path + '/' + path + '.png').convert('L')
+            image_arr = asarray(image)
+            return image_arr,trace,label
+
 
 
 outputdir = 'images'
@@ -141,13 +143,25 @@ if __name__ == "__main__":
         reader = csv.reader(infile)
         for row in reader:
             classresult[row[0]] = row[1]
-
+    filenames = []
+    labels = []
+    traces = []
+    images = []
     # convert all inkml from training data to png
     files = os.listdir(path)
     for file in tqdm(files):
         if str(file).__contains__('.inkml'):
-            print(file)
-            inkml2img(path + '/' + file, outputdir,classresult)
+            # print(file)
+            result = inkml2img(path + '/' + file, outputdir,classresult)
+            if result is not None:
+                image,trace,label = result
+                filenames.append(file)
+                images.append(image)
+                traces.append(trace)
+                labels.append(label)
+
+    df = pd.DataFrame({'filenames':filenames,'images':images,'traces':traces,'labels':labels})
+    df.to_csv('trainingdata.csv', index=False, header=True)
 
 
 
