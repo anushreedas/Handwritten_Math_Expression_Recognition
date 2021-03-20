@@ -11,7 +11,7 @@ from PIL import Image
 from numpy import asarray
 import pandas as pd
 
-Labels = []
+# Labels = []
 
 def get_traces_data(inkml_file_abs_path,classresult):
     traces_data = []
@@ -25,12 +25,12 @@ def get_traces_data(inkml_file_abs_path,classresult):
     ui = ui.text.replace('"','')
     label = classresult[ui]
     label=label.replace('\\','slash_')
-    if label not in Labels:
-        print(label)
-        Labels.append(label)
+    # if label not in Labels:
+    #     print(label)
+    #     Labels.append(label)
     # process only 10 files for each class to reduce execution time for now
-    if os.path.exists(outputdir +'/'+ label) and len(os.listdir(outputdir +'/'+ label)) > 1:
-        return None
+    # if os.path.exists(outputdir +'/'+ label) and len(os.listdir(outputdir +'/'+ label)) > 1:
+    #     return None
 
     'Stores traces_all with their corresponding id'
     traces_all = [{'id': trace_tag.get('id'),
