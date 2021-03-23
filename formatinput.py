@@ -3,13 +3,12 @@ import numpy as np
 from PIL import Image
 import torch
 import torch.nn as nn
-import torchvision
 from torchvision import models
 from torch.utils.data import Dataset, DataLoader, random_split
 from sklearn.model_selection import train_test_split
-from torch.optim import SGD, Adam
+from torch.optim import  Adam
 import matplotlib.pyplot as plt
-from torchvision import transforms, utils
+from torchvision import transforms
 import cv2
 
 
