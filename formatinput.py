@@ -17,6 +17,7 @@ class data(Dataset):
     def __init__(self, data_frame, transform=None):
         self.x = list(data_frame['x'])
         self.y = list(data_frame['classes'])
+        self.identifier = list(data_frame['filenames'])
         self.transform = transform
 
     def __len__(self):
@@ -28,9 +29,10 @@ class data(Dataset):
         sample_x = Image.fromarray(np.asarray(self.x[idx]))
         sample_x = sample_x.convert('RGB')
         sample_y = self.y[idx]
+        sample_i = self.identifier[idx]
         if self.transform:
             sample_x = self.transform(sample_x)
-        return sample_x, sample_y
+        return sample_x, sample_y, sample_i
 
 
 # standalone changes
@@ -70,7 +72,7 @@ def reformat_images(pickled_file):
     # Cant do this in place due to memory issues, hacked using dataloader
     # df['x'] = df['x'].apply(lambda x: cv2.cvtColor(x,cv2.COLOR_GRAY2RGB))
     # print('Done 2')
-    train,test = train_test_split(df,test_size=0.2)
+    train, test = train_test_split(df, test_size=0.2)
     train.to_pickle('train.pkl')
     train.to_csv('train.csv')
     print(len(train), ' : Train Samples')
@@ -79,13 +81,13 @@ def reformat_images(pickled_file):
     test.to_pickle('test.pkl')
     test.to_csv('test.csv')
     print(len(test), ' : Test Samples')
-    test=None
+    test = None
     print('Saved test set')
 
     return None
 
 
-def evaluate_data(trainset,testset=None):
+def proof_of_concept(trainset, testset=None):
     torch.cuda.empty_cache()
     device = torch.device("cuda")
     train_set = pd.read_pickle(trainset)
@@ -99,12 +101,12 @@ def evaluate_data(trainset,testset=None):
         transforms.ToTensor(),
         transforms.Normalize([0.485, 0.456, 0.406], [0.229, 0.224, 0.225])
     ])
-    training_set = data(train_set,train_transform)
+    training_set = data(train_set, train_transform)
     print(training_set.__len__())
     train, validate, test = random_split(training_set, [10000, 0, 3728])
 
-    train_loader = DataLoader(train, batch_size=64, shuffle=True)
-    test_loader = DataLoader(test, batch_size=64, shuffle=True)
+    train_loader = DataLoader(train, batch_size=64, shuffle=True, num_workers=6)
+    test_loader = DataLoader(test, batch_size=64, shuffle=True, num_workers=4)
 
     model = models.vgg16(pretrained=True)
     for param in model.parameters():
@@ -131,7 +133,7 @@ def evaluate_data(trainset,testset=None):
         valid_loss = 0.0
         valid_acc = 0.0
 
-        for i, (inputs, labels) in enumerate(train_loader):
+        for i, (inputs, labels, identifier) in enumerate(train_loader):
             inputs = inputs.to(device)
             labels = labels.to(device)
 
@@ -160,7 +162,7 @@ def evaluate_data(trainset,testset=None):
 
             model.eval()
 
-            for j, (inputs, labels) in enumerate(test_loader):
+            for j, (inputs, labels, identifier) in enumerate(test_loader):
                 inputs = inputs.to(device)
                 labels = labels.to(device)
 
@@ -212,25 +214,88 @@ def evaluate_data(trainset,testset=None):
     plt.show()
 
 
+def cnn_feature_extractor(trainset, testset=None):
+    torch.cuda.empty_cache()
+    device = torch.device("cuda")
 
+    train_set = pd.read_pickle(trainset)
+    train_set, test = train_test_split(train_set, test_size=0.7)
 
+    # later
+    # test_set = pd.read_pickle(testset)
+    train_transform = transforms.Compose([
+        transforms.Resize(256),
+        transforms.CenterCrop(244),
+        transforms.ToTensor(),
+        transforms.Normalize([0.485, 0.456, 0.406], [0.229, 0.224, 0.225])
+    ])
+    training_set = data(train_set, train_transform)
+    print(training_set.__len__())
+    # train, validate, test = random_split(training_set, [10000, 0, 3728])
 
+    train_loader = DataLoader(training_set, batch_size=64, shuffle=False, num_workers=6)
+    # test_loader = DataLoader(test, batch_size=64, shuffle=True,num_workers=4)
 
+    model = models.vgg16(pretrained=True)
+    for param in model.parameters():
+        param.requires_grad = False
 
+    model.classifier[-1] = nn.Sequential()
+    model.to(device)
+    print(model)
 
+    model.eval()
+    model = model.cuda()
 
+    with torch.no_grad():
+        features, classes, filenames = None, None, []
+        count = 0
+        for j, (inputs, labels, identifier) in enumerate(train_loader):
+            count += 1
+            inputs = inputs.to(device)
+            filenames.append(identifier)
+            output = model(inputs)
 
+            if features is not None:
+                features = torch.cat((features, output), 0)
+                classes = torch.cat((classes, labels), 0)
+                # filenames = torch.cat((filenames,identifier),0)
+            else:
+                features = output
+                classes = labels
+                # print(classes.shape, 'Classes Shape', type(classes), classes)
 
+        features = features.view(features.size(0), -1)
+        classes = classes.view(classes.size(0), -1)
 
+        feat_df = pd.DataFrame(features.cpu().numpy(), columns=[f'f_{n}' for n in range(features.size(-1))])
+        features = None
+        classes_df = pd.DataFrame(classes.cpu().numpy(), columns=[f'label{n}' for n in range(classes.size(-1))])
+        classes = None
+        combined = pd.concat([feat_df, classes_df], axis=1)
+        feat_df = None
+        classes_df = None
 
+        file_col = []
 
+        for index in filenames:
+            for file in index:
+                file_col.append(file)
+        file_col = np.asarray(file_col)
+        combined['filenames'] = file_col
 
+        combined.to_csv('features.csv')
+        combined.to_pickle('features.pkl')
+        # print(filenames.shape, filenames)
+        return None
 
 
 def main():
     # reformat_images('t1.pkl')
     train = '/home/omkarsarde/PycharmProjects/Datasets/train.pkl'
-    evaluate_data(train)
+    proof_of_concept(train)
+    # cnn_feature_extractor(train)
+
 
 if __name__ == '__main__':
     main()
