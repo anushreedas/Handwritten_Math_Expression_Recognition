@@ -1,0 +1,66 @@
+LgEval Evaluation Summary
+Mon May 10 23:02:51 2021
+
+Output File Directory:  /Users/anushree/PycharmProjects/PRecAssignment4/agg_mst_symbol_train
+Ground Truth Directory: /Users/anushree/PycharmProjects/PRecAssignment4/lg_all
+
+****  PRIMITIVES   **************************************************************
+
+  Directed   Rate(%)     Total   Correct    Errors    SegErr     ClErr    RelErr
+---------------------------------------------------------------------------------
+     Nodes     71.11    121329     86274     35055
+     Edges     92.18   2433338   2243003    190335     69860      8208    112267
+
+     Total     91.18   2554667   2329277    225390
+
+
+Undirected   Rate(%)     Total   Correct    Errors    SegErr     ClErr    RelErr
+---------------------------------------------------------------------------------
+     Nodes     71.11    121329     86274     35055
+Node Pairs     88.04   1216669   1071179    145490     34930      4104    106456
+
+     Total     86.51   1337998   1157453    180545
+
+     SegErr: merge/split   ClErr: valid merge class error   RelErr: relation error
+
+
+****  OBJECTS   **************************************************************************
+
+           Recall(%)   Prec(%) 2RP/(R+P)   Targets   Correct  FalseNeg *Detected *FalsePos
+------------------------------------------------------------------------------------------
+   Objects     83.49     72.29     77.49     85783     71616     14167     99065     27449
+ + Classes     79.78     69.08     74.05     85783     68438     17345     99065     30627
+ Class/Det     95.56                         71616     68438
+
+ Relations     49.94     51.50     50.71     77849     38876     38973     75484     36608
+ + Classes     39.45     40.69     40.06     77849     30713     47136     75484     44771
+ Class/Det     79.00                         38876     30713
+
+     2RP/(R+P): harmonic mean (f-measure) for (R)ecall and (P)recision
+     Class/Det: (correct detection and classification) / correct detection
+
+
+****  FILES  ***************************************
+
+             Rate(%)     Total   Correct    Errors
+---------------------------------------------------
+   Objects     39.46      8836      3487      5349
+ + Classes     30.42      8836      2688      6148
+ Class/Det     77.09      3487      2688          
+
+ Relations     17.93      8836      1584      7252
+ + Classes     14.87      8836      1314      7522
+ Class/Det     82.95      1584      1314          
+
+ Structure     17.88      8836      1580      7256
+ + Classes     12.21      8836      1079      7757    *Final
+ Class/Det     68.29      1580      1079          
+
+
+****  LABEL ERROR HISTOGRAM (Dir. Edges, D_B)  ****
+
+                   0         1         2         3         4         5        >5
+----------------------------------------------------------------------------------
+Num. Files      1079       349       225       210       288       209      6476
+Cum. Files      1079      1428      1653      1863      2151      2360      8836
+
