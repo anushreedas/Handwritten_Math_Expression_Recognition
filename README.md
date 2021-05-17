@@ -1,1 +1,0 @@
-# Handwritten_Math_Symbol_Classification
