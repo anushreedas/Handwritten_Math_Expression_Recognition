@@ -1,4 +1,4 @@
-# Handwritten_Math_Symbol_Classification
+# Handwritten Math Expression Recognition
 
 ## Classification:
 Python program to classify individual handwritten mathematical symbolsfrom the CROHME isolated symbol competition data set. 
