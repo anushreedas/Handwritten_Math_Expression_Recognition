@@ -40,13 +40,13 @@ def load_inkml_files(path,test):
             # store it in the dictionary
             data[UI] = {'strokes':strokes,'label':label}
     
-    # save to pickle file
-    # df = pd.DataFrame(data)
-    # if test is True:
-    #     filename= 'test_data.pkl'
-    # else:
-    #     filename='training_data.pkl'
-    # df.to_pickle(filename)
+    save to pickle file
+    df = pd.DataFrame(data)
+    if test is True:
+        filename= 'test_data.pkl'
+    else:
+        filename='training_data.pkl'
+    df.to_pickle(filename)
             
     return data
 
@@ -110,6 +110,6 @@ def inkml_parser(filepath,ground_truth_labels=None):
 
     return UI,strokes,label
 
-# if __name__ =='__main__':
-#     load_inkml_files('trainingSymbols',test =False)
+if __name__ =='__main__':
+    load_inkml_files('trainingSymbols',test =False)
 #     load_inkml_files('testSymbols',test = True)
