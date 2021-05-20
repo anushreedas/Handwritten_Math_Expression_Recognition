@@ -111,5 +111,6 @@ def inkml_parser(filepath,ground_truth_labels=None):
     return UI,strokes,label
 
 if __name__ =='__main__':
+    # path to directory with .inkml files
     load_inkml_files('trainingSymbols',test =False)
 #     load_inkml_files('testSymbols',test = True)
