@@ -1,3 +1,5 @@
+Program that reads stroke data from a CROHME.inkml file, segments strokes into symbols, classifies the symbols, and then produces a label graph (.lg)file in Object-Relationship Format as output. The classifier used is the random forest classifier from  
+
 Authors: Anushree D, Nishi P, Omkar S
 Project 2 Math Symbol Segmentation and Classification
 *****************Instructions*****************
