@@ -1,3 +1,5 @@
+# Handwritten Math Expression Segementation
+
 Program that reads stroke data from a CROHME.inkml file, segments strokes into symbols, classifies the symbols, and then produces a label graph (.lg)file in Object-Relationship Format as output. The classifier used is the random forest classifier from https://github.com/anushreedas/Handwritten_Math_Expression_Recognition
 
 Authors: Anushree D, Nishi P, Omkar S
