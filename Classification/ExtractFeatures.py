@@ -220,13 +220,13 @@ def y_normalization(strokes_info):
         strokes.append(stroke)
     return strokes
 
-# print('Extracting Feature..')
-# # train_data = load_inkml_files('trainingSymbols')
-# with open('test_data.pkl', 'rb') as pickle_file:
-#     train_data = pickle.load(pickle_file)
-#     X, y = feature_extraction(train_data)
-#
-# data = np.column_stack((X,y))
-# print(data.shape)
-# df = pd.DataFrame(data)
-# df.to_pickle('test_features.pkl')
+if __name__ = "__main__":
+    print('Extracting Feature..')
+    # train_data = load_inkml_files('trainingSymbols')
+    with open('train_data.pkl', 'rb') as pickle_file:
+        train_data = pickle.load(pickle_file)
+        X, y = feature_extraction(train_data)
+
+    data = np.column_stack((X,y))
+    df = pd.DataFrame(data)
+    df.to_pickle('train_features.pkl')
