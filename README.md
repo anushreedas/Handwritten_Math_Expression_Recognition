@@ -99,24 +99,42 @@ Output: .lg file describing structure
 1. Segmentation
 ```
 cd Segmentation
+
+# Install dependencies
 pip install -r requirements.txt
-python DatasetSegmenter.py
+
+# Run segmentation on dataset
+python3 DatasetSegmenter.py <path_to_input_folder>
 ```
 2. Classification
 ```
 cd Classification
+
+# Install dependencies
 pip install -r requirements.txt
 
-# Train model
-python TrainClassifier.py
+# Load InkML Data
+python3 LoadInkmlFiles.py
 
-# Classify symbols
-python ClassifyTestSymbols.py
+# Extract Features
+python3 ExtractFeatures.py
+
+# Train Classifier
+python3 TrainClassifier.py
+
+# Run Classification
+# SVM Classifier
+python3 ClassifyTestSymbols.py svm <path_to_test_directory>
+
+# Random Forest Classifier
+python3 ClassifyTestSymbols.py rf <path_to_test_directory>
 ```
+
 3. Parsing
 ```
 cd Parsing
-python p3.py
+
+python3 p3.py <path_to_inkml_directory>
 ```
 
 ## Results
