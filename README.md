@@ -166,3 +166,8 @@ python3 p3.py <path_to_inkml_directory>
 * Improve segmentation using graph neural networks
 * Learn parsing relationships instead of rule-based logic
 * Build end-to-end trainable architecture
+
+## Author
+
+**Anushree Das**
+[LinkedIn](https://linkedin.com/in/anushree-s-das) · [GitHub](https://github.com/anushreedas) · [Medium](https://medium.com/@anushreedas.2710)
